@@ -1,4 +1,4 @@
-minirc - minimalistic rc script
+fuckrc - a fucking init script
 ===============================
 
 The script "rc" is a minimalistic init script made for use with busybox init.
