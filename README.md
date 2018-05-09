@@ -2,6 +2,7 @@ fuckrc - a fucking init script
 ===============================
 
 instead of busybox init its gonna be used with sinit
+
 ![screenshot](screenshot.png)
 
 
