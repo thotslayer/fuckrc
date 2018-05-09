@@ -1,23 +1,14 @@
 fuckrc - a fucking init script
 ===============================
 
-The script "rc" is a minimalistic init script made for use with busybox init.
-It starts up udev, sets the hostname, mounts the file systems, starts the
-daemons and so on.
-
-Later, in the user space, you can use it to list currently running daemons and
-individually start or stop them.
-
-It was developed for arch linux to get rid of systemd, but it can probably run
-on other distributions as well.
-
+instead of busybox init its gonna be used with sinit
 ![screenshot](screenshot.png)
 
 
 Installing
 ----------
 
-Dependencies: busybox, optionally eudev or systemd (for udev)
+Dependencies: ~~busybox~~ sinit, optionally eudev or systemd (for udev)
 
 NOTE: The archlinux AUR package does step 1 for you.
 
